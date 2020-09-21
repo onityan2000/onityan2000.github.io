@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.header-right {
+  display: block;
+  line-height: 70px;
+  margin-right: 100px;
+}
+
+.login {
+  color: white;
+  display: block;
+  padding: 0 20px;
+  text-align: right;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding-top: 120px;
+  padding-bottom: 100px;
+  background-image: url("../img/oni.jpg");
+  color: white;
+  background-size: cover;
+  text-align: center;
+}
+
+.top-wrapper  h1 {
+  margin: 0;
+  font-size: 48px;
+  opacity: 0.7;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  margin: 10px;
+  opacity: 0.8;
+  border-radius: 2px;
+}
+
+.btn:hover {
+  opacity: 1.0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn-wrapper p {
+  margin: 5px;
+}
+
+.heading {
+ color: #5f5d60;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+
+.lesson-wrapper {
+  background-color:#f7f7f7;
+  height: 500px;
+
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+  text-align: center;
+
+}
+
+.lesson-icon  p {
+  position: absolute;
+  top: 75px;
+  left: 100px;
+}
+
+.txt-contents {
+  display: inline-block;
+  width: 80%;
+  margin-top: 20;
+  font-size: 18px;
+  color: #b3aeb5;
+}
+
+.measeage-wrapper {
+  padding-top: 30px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.measeage {
+  background-color: #5dca88;
+  padding: 20px 30px;
+  cursor: pointer;
+  box-shadow: 0px 7px #1a7940;
+}
+
+.measeage:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+footer {
+  height: 100px;
+  border-top: 1px solid #f7f7f7;
+}
